@@ -1,0 +1,115 @@
+*, *:hover{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	color: inherit;
+}
+body {
+	font-family: arial, sans-serif;
+}
+
+#menu {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.menu-item{
+	color: #404040;
+	display: inline-block;
+	font-size:.8em;
+	margin: 15px 8px;
+}
+
+
+.menu-item > a{
+	display: inline-block;
+}
+.menu-item a:hover
+{
+	color: black;
+}
+.menu-item a:hover .mini-block{
+	background-color: black;
+}
+.relative {
+	position: relative;
+}
+
+.mini-block-wrapper {
+	width: 18px;
+	vertical-align: middle;
+}
+.mini-block {
+	width: 4px;
+	height: 4px;
+	background: #707070;
+	margin: 0 2px 2px 0;
+	float: right;
+}
+
+.main {
+	margin: 0 auto;
+	width: 600px;
+	margin-top: 180px;
+}
+
+h1.logo {
+	font-family: serif;
+	font-size: 6em;
+	margin: 0 auto 20px auto;
+	width: 290px;
+	text-align: center;
+	overflow: hidden;
+}
+.color {
+	display: block;
+	float: left;
+}
+
+.blue {
+	color: #3b79dc;
+}
+.red {
+	color: #da432e;
+}
+.green {
+	color: #009555;
+}
+.yellow {
+	color: #fbba00;
+}
+
+.search-field{
+	width: 100%;
+	border: 1px solid #cccccc;
+	height: 2em;
+	font-size: 13px;
+}
+
+.buttons {
+	width: 225px;
+	color: #404040;
+	margin: 15px auto;
+	text-align: center;
+}
+.l-button, .g-button {
+	margin: 0 auto;
+	font-weight: bold;
+	border: 1px solid #cccccc;
+	padding: 5px;
+	background: #eeeeee;
+	border-radius: 2px;
+}
+.g-button {
+	margin-right: 10px;
+}
+
+.sign-in{
+	background: #3b79dc;
+	margin: 0 auto;
+	font-weight: bold;
+	color: white;
+	padding: 7px 12px;
+	border-radius: 5px;
+	margin-right: 10px;
+}
